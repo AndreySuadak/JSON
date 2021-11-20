@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Serif', serif;
+}
+
+body {
+    background-color: rgba( 142, 1, 142, 0.4);
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 20vw;
+    min-height: 20vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid rgba(255, 0, 0, 0.5); */
+    padding: 2vh;
+    background-color: rgba( 237, 237, 237, 1);
+    border-radius: 10px;
+}
+
+label {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+select {
+    width: 20vw;
+    height: 5vh;
+    border: none;
+    background-color: rgba( 142, 1, 142, 0.2);
+    box-sizing: border-box;
+    font-size: 21px;
+    font-weight: bold;
+    padding-left: 1vh;
+    cursor: pointer;
+    border-radius: 7px;
+}
+/* select:focus {
+    background-color: green;
+} */
+option:hover {
+    background: olive linear-gradient(olive, olive);
+    color: red;
+}
+
+option {
+    border-radius: 7px;
+    border: none;
+    /* background-color: rgba( 142, 142, 142, 1); */
+}
